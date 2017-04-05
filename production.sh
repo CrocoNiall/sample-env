@@ -9,5 +9,5 @@ sudo service nginx restart
 # install the node webhook handler and start the hook server
 cd /home/ubuntu/app
 npm install 
-pm2 stop all 
-pm2 start app.js
+# pm2 stop all 
+# pm2 start app.js
