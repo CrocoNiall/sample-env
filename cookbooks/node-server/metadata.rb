@@ -21,3 +21,4 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 
 
 depends 'nodejs', '~> 3.0.0'
+depends 'git', '~> 6.0.0'
