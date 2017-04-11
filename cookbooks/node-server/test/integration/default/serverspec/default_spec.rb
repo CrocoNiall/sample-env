@@ -16,7 +16,7 @@ describe port(80) do
 end
 
 describe command('git --version') do 
-  its(:stdout) { should contain("1.9.1") }
+  its(:stdout) { should contain("2.7.4") }
 end
 
 describe command('node -v') do 
