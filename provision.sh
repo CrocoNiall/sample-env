@@ -1,17 +1,18 @@
-sudo apt-get update -y
-sudo apt-get install nginx -y
+# sudo apt-get update -y
+# sudo apt-get install nginx -y
 
-# update the registry of node sources
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+# # update the registry of node sources
+# curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
-# install node
-sudo apt-get install nodejs -y
+# # install node
+# sudo apt-get install nodejs -y
 
-# install git and npm
-sudo apt-get install git -y
+# # install git and npm
+# sudo apt-get install git -y
 
-# install pm
-sudo npm install pm2 -g
+# # install pm
+# sudo npm install pm2 -g
 
-# echo "eval `ssh-agent`" >> ~/.bashrc
-# echo "ssh-add ~/.ssh/github_key" >> ~/.bashrc
+# # echo "eval `ssh-agent`" >> ~/.bashrc
+# # echo "ssh-add ~/.ssh/github_key" >> ~/.bashrc
+# dfljhdsf
